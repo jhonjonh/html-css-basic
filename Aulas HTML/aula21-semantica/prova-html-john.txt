@@ -1,0 +1,154 @@
+Avaliação HTML
+Aluno: John Correa Gerber.
+
+
+01. O código será o seguinte:
+	
+	<img src="soulcode.jpg" alt="logo" width="250px" height="400px">
+
+
+02. É só aninhar o elemento <img> dentro de outro elemento <a>:
+
+	<a href="https://www.soulcodeacademy.org"><img src="soulcode.jpg" alt="logo" width="250px" height="400px"></a>
+
+
+03. A tag correta é:
+
+	<p>Hello World!</p>
+
+
+04. O que falta são as tags de fechamento:
+
+	<h1> Este é um Título </h1>
+	<p> Este é um parágrafo. </p>
+
+
+05. A quebra de linha pode ser usada com <br>
+
+	<p> Minha Bonnia mente <br> sobre o oceano. </p>
+
+
+06. Para se dar importância a um trecho de texto, geralmente usam-se as tags <em></em>
+	
+	<p>
+	A missão do WWF é impedir o <em> degradação </em> do ambiente natural do nosso planeta.
+	</p>
+
+
+07a. As tags de comentário são <!-- e -->
+
+	<h1> Este é um título </h1>
+	<!-- Isto é um comentário -->
+	<p> Este é um parágrafo </p>
+
+
+07b. O atributo correto é: target="_blank"
+
+	<a href = "html_images.asp" target="_blank"> Imagens HTML </a>
+
+
+08. O link correto é:
+
+	<a href="default.html"><img src = "smiley.gif"></a>
+
+
+09. O exercício resolvido fica assim:
+
+	<ul>
+	<li> Café </li>
+	</ul>
+
+
+10. O Código completo fica assim:
+
+	<ol>
+		<li> Café </li>
+		<li> Chá </li>
+		<li> Leite </li>
+	</ol>
+
+
+11. O atributo correto é type="A"
+
+	<ol type="A">
+		<li> Café </li>
+		<li> Chá </li>
+		<li> Leite </li>
+	</ol>
+
+
+12a.  O atributo correto é type="I"
+
+	<ol type="I">
+		<li> Café </li>
+		<li> Chá </li>
+		<li> Leite </li>
+	</ol>
+
+
+12b.  O exercício resolvido fica assim:
+
+	<form>
+		<input type="radio" id="html" name="fav_language" value="html"> HTML
+		<input type="radio" id="css" name="fav_language" value="css"> CSS
+	</form>
+
+
+13. Respostas abaixo:
+	<header> = É uma seção para conter o título da página, um subtítulo e demais informações relevantes ao cabeçalho da mesma. Deve ser posicionado no topo da página.
+	<nav> = Geralmente fica posicionado logo abaixo do <header> e acima do <section> e serve para se inserir menus de navegação do conteúdo da página.
+	<section> = Geralmente fica no meio da página e serve para separar o conteúdo principal da, pode ser dividido em <articles>.
+	<article> = Normalmente fica dentro da <section> e pode ser usado para dividir e organizar o conteúdo da <section> em artigos menores.
+	<footer> = Contém o conteúdo do rodapé da página, como dados do desenvolvedor, data e local, etc.
+
+
+14. Tags <meta> ficam dentro da <head> e contém informações e atributos (ex: author, title, etc) sobre a própria página em si. Não aparecem no corpo da página.
+
+
+15. Links absolutos contém o endereço completo fixo da página, enquanto os relativos contém somente uma referência à página em específico, podendo mudar de acordo com o local onde for hospedada.
+
+
+16. Uma âncora é um link interno para um elemento dentro da própria página. Pode ser criado declarando-se uma id para um elemento e depois criando-se um elemento <a> cujo href= seja essa #id
+
+
+17. O input de tipo radio permite somente uma opção dentre várias. Devem ser agrupados sob o mesmo "name"
+
+
+18. Que o name "Carro" tem o value "veiculo"
+
+
+19. Resposta abaixo:
+
+	Criação de linha usa as tags <tr></tr>
+	Criação de coluna usa as tags <td></td>
+	Criação de cabeçalho usa as tags <th></th>
+
+
+20. Respostas abaixo:
+	
+	<header> contém o título
+	<nav> menu de navegação
+	<main> um trecho em destaque da página, geralmente aninha um <article> 
+	<section> contém o conteudo principal da página
+	<article> dividem o <section> em artigos
+	<aside> um menu lateral, ou outras informações relevantes ao tema principal
+	<footer> conteúdo de rodapé (dados de contato, autor, etc)
+
+	
+
+
+		
+
+	
+
+
+
+
+	
+
+	
+
+
+
+
+

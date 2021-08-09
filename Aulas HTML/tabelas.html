@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table tr th{
+            border: 2px solid gray;
+            background: linear-gradient(180deg, rgb(241, 203, 203), rgb(231, 216, 216), white);
+        }
+        table tr {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <h1>Tabelas</h1>
+
+   <table border ="2px black" width="auto">
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Profissao</th>
+        <th>E-mail</th>
+    </tr>
+    <tr>
+        <td>Joao</td>
+        <td>25</td>
+        <td>Marceneiro</td>
+        <td>joao@uol.com</td>
+    </tr>
+    <tr>
+        <td>Diego</td>
+        <td>21</td>
+        <td>Programador</td>
+        <td>diego@bol.com</td>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>64</td>
+        <td>Cozinheira</td>
+        <td>paola@pdt.org</td>
+    </tr>
+    <tr>
+        <td>Jair</td>
+        <td>66</td>
+        <td>Militar</td>
+        <td>jair@br.gov</td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="2">--Final da Tabela--</td>
+    </tr>
+</table>
+
+<table border="black" width="500px" height="500px">
+    <tr>
+        <td colspan="3"></td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td colspan="4"></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

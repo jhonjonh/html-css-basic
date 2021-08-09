@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+    /*  background: linear-gradient(90deg, white, yellow, black);  */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cats_and_goats_wrapping_paper_A3.png/800px-Cats_and_goats_wrapping_paper_A3.png);
+    background-size: 300px;
+    background-color:aliceblue;
+}
+
+h1 {
+    color: rgb(27, 27, 71);
+    width: 640px;
+    border:2px solid rgb(83, 38, 6);
+    border-radius: 10px;
+    background-color: rgb(209, 194, 127);
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    ;
+}
+
+p {
+    color: rgb(56, 45, 15);
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-family:Verdana, Tahoma, sans-serif;
+    background-color: cornsilk;
+}
+
+--color-blue {
+    color:blue;
+}
+

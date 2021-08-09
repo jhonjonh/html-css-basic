@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid darkslategrey;
+    background-image: url();
+    background-color: darkslategrey;
+}
+
+header {
+    width: 100%;
+    border: inherit;
+    border-radius: 8px;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+header h2 {
+    margin-top: auto;
+}
+
+nav {
+    width: 100%;
+    border: inherit;
+    border-radius: 8px;
+    text-align: center;
+}
+
+main {
+    width: 70%;
+    border: inherit;
+    border-radius: 8px;
+    background-color: darkseagreen;
+}
+
+aside {
+    width: 29%;
+    border: inherit;
+    border-radius: 8px;
+    background-color: darkseagreen;
+}
+
+aside h2 {
+    padding: 20px 0 10px 0;
+}
+
+aside ul li {
+    margin-left: 20px;
+    padding: 10px 0 10px 20px;
+}
+
+aside ul li a:hover {
+    color: green;
+}
+
+footer {
+    width: 100%;
+    border: inherit;
+    border-radius: 8px;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+h1 {
+    padding: 20px 0 0 0;
+    margin: 0px;
+    color: rgb(7, 46, 38);
+    text-shadow: 2px 2px 3px darkslategrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo {
+    animation-name: colorfade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorfade {
+    0% {
+        color: darkslategrey;
+    }
+    50% {
+        color: rgb(112, 179, 58);
+    }
+    75% {
+        color: greenyellow;
+    }
+    100% {
+        color: darkslategrey;
+    }
+}
+
+h2 {
+    transform: scale(0.8);
+}
+
+p {
+    padding: auto;
+    margin: 20px 20px 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#topmenu {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+    background-color: #bfce96;
+    list-style: none;
+}
+
+#topmenu li {
+    display: inline;
+    padding: 2px 50px;
+    display: inline-block;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#topmenu li a:hover {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+}

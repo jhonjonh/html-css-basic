@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "author" content = "John Gerber">
+    <title>CSS-usando gradiente</title>
+
+    <!--
+        Autor: John Correa Gerber. 
+        Data de criação: 27/07/2021.
+        Horário de término: 13:00
+    -->
+
+    <style>
+        .gridbox{
+            border: 5px solid rgb(10, 10, 32);
+            border-radius: 10px;
+            box-shadow: -3px 5px 5px rgb(29, 57, 80);
+            background-color:silver;
+            width: fit-content;
+            padding: 10px;
+            margin: 25% 25% 25% 25%;   
+            height: fit-content;
+            display: inline-grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 0.75rem;
+            grid-row-gap: 0.75rem;
+        }
+        div div{
+            border: 4px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 200px;
+            height: 100px;
+        }
+        div div:nth-child(1){
+            background: linear-gradient(to top right, blue, green);
+        }
+        div div:nth-child(2){
+            background: linear-gradient(to bottom, yellow, pink);
+        }
+        div div:nth-child(3){
+            background: repeating-linear-gradient(to right, purple, rgb(105, 71, 9), purple 25%);
+        }
+        div div:nth-child(4){
+            background: radial-gradient(50% 50% at center, red, ivory);
+        }
+        div div:nth-child(5){
+            background: radial-gradient(70% 80% at bottom right, lightcoral, lightslategrey, lightblue);
+        }
+        div div:nth-child(6){
+            background: repeating-radial-gradient(at center, indigo 0%, maroon 25%, sienna 30%);
+        }
+        div div:nth-child(7){
+            background: linear-gradient(to top, rgb(66, 76, 165), rgb(97, 97, 57), yellow);
+        }
+        div div:nth-child(8){
+            background: linear-gradient(to left bottom, rgb(22, 49, 49), rgb(240, 36, 70), slategrey);
+        }
+        div div:nth-child(9){
+            background: repeating-linear-gradient(to bottom right, black 0%, black 5%, red 10%, red 15%);
+        }
+        div div:nth-child(10){
+            background: repeating-radial-gradient(60% 65% at top, purple 0%, ivory 10%, rgb(97, 97, 57) 20%, orange 30%, purple 40%);
+        }
+        div div:nth-child(11){
+            background: radial-gradient(80% 20% at center, red, ivory, yellow, green, brown, black);
+        }
+        div div:nth-child(12){
+            background: repeating-radial-gradient(at center, indigo 0%, maroon 1%, sienna 2%, green 3%, black 4%, white 5%, yellow 6%, blue 7%, maroon 8%, orange 9%, indigo 10%);
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 12px;
+            margin-bottom: auto;
+        }
+        .light-txt{
+            color:rgb(221, 245, 248);
+            text-shadow: 5px 2px 2px rgb(54, 45, 45);
+        }
+        .dark-txt{
+            color:rgb(13, 24, 34);
+            text-shadow: 1px 2px 3px rgb(224, 186, 186);
+        }
+    </style>
+</head>
+<body>
+    <div class="gridbox">
+        <div><p class="light-txt">Gradiente linear diagonal azul-verde.</p></div>
+        <div><p class="dark-txt">Gradiente linear horizontal amarelo-rosa. </p></div>
+        <div><p class="light-txt">Gradiente linear repetido roxo-marrom.</p></div>
+        <div><p class="dark-txt">Gradiente radial central vermelho-marfim.</p></div>
+        <div><p class="dark-txt">Gradiente radial inferior direito azul claro-escuro-coral.</p></div>
+        <div><p class="light-txt">Gradiente radial repetido central com tons de azul e vermelho.</p></div>
+        <div><p class="dark-txt">Gradiente linear horizontal azul e amarelo.</p></div>
+        <div><p class="light-txt">Gradiente linear diagonal vermelho, cinza e preto. </p></div>
+        <div><p class="light-txt">Gradiente linear repetido diagonal flamenguista.</p></div>
+        <div><p class="dark-txt">Gradiente radial central vermelho-marfim.</p></div>
+        <div><p class="light-txt">Gradiente radial inclinado horizontal colorido.</p></div>
+        <div><p class="light-txt">Gradiente radial repetido central com tons variados.</p></div>
+    </div>
+</body>
+</html>

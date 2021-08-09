@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:rgb(223, 230, 166);
+}
+h2{
+    font-size:1em;
+    color:rgb(142, 172, 97);
+}
+a,p{
+    position:absolute;
+    font-weight:bold;
+    top: 20%;
+    margin:0 10% 0 10%;
+}
+main{
+    width:80%;
+    max-width: 880px;
+    min-width: 706px;
+    height:500px;
+    background-color: darkseagreen;
+    position:relative;
+    left:5%;
+    border-radius:8px;
+}
+header{
+    width:90%;
+    height:15%;
+    background-color: rgb(61, 97, 61);
+    position:absolute;
+    top:5%;
+    left:5%;
+    border-radius:8px;
+}
+.maindiv{
+    width:43%;
+    height:70%;
+    background-color: rgb(49, 112, 49);
+    position:absolute;
+    bottom:5%;
+    border-radius:8px;
+}
+#mdleft{
+    left:5%;
+}
+#mdright{
+    right:5%;
+}
+.ldiv{
+    width:50%;
+    height:40%;
+    background-color: rgb(121, 190, 121);
+    opacity:0.8;
+    position:absolute;
+    border-radius:8px;
+}
+.ldiv a{
+    color: inherit;
+    left:5%;
+    right:5%;
+}
+#ld1{
+    top:5%;
+    right:5%;
+    z-index:1;
+}
+#ld2{
+    bottom:5%;
+    left:5%;
+    z-index:3;
+}
+#mascot{
+    position:absolute;
+    width:40%;
+    top:30%;
+    left:30%;
+    z-index:2;
+}
+.rdiv{
+    position:absolute;
+    right:5%;
+    width:90%;
+    height:40%;
+    background-color: rgb(121, 190, 121);
+    opacity:0.8;
+    border-radius:8px;
+}
+.rdiv p{
+    top:35%;
+}
+#rd1{
+    top:5%;
+    z-index:3;
+}
+#rd2{
+    bottom:5%;
+    z-index:1;
+}
+

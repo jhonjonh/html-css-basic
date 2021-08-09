@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox-2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 90%;
+            height: 500px;
+            padding: 2%;
+            background-color: darkgray;
+            border: 2px solid;
+            box-shadow: -5px 5px 0px 2px rgb(66, 64, 64);
+            position:relative;
+            left: 5%;
+            top: 30px;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+
+        }
+        div{
+            width: 15%;
+            height: 30%;
+            background-color: darkmagenta;
+            border: 1px solid;
+            box-shadow: -5px 5px 1px 2px rgb(39, 38, 38);
+            position:relative;
+            text-align: center;
+            padding-top: 5%;
+        }
+        .widediv{
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="row1">1</div>
+        <div class="row1">2</div>
+        <div class="row1">3</div>
+        <div class="row1">4</div>
+        <div class="row1 widediv">5</div>
+        <div class="row2 widediv">6</div>
+        <div class="row2 widediv">7</div>
+        <div class="row2">8</div>
+        <div class="row2">9</div>
+        <div class="row3">10</div>
+        <div class="row3">11</div>
+        <div class="row3 widediv">12</div>
+        <div class="row3 widediv">13</div>
+    </main>
+</body>
+</html>

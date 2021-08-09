@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox-1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            position:relative;
+            top: 5vh;
+            left: 5%;
+            width: 90%;
+            min-width: 794px;
+            height: 50vh;
+            background-color:blanchedalmond;
+            border: 2px solid;
+            box-shadow:0px 0px 5px 2px rgb(99, 97, 97);
+            padding: 1% 1% 1% 1%;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-content: space-around;
+        }
+        div{
+            width:2vw;
+            height:60px;
+            background-color: coral;
+            border:1px solid;
+            box-shadow: 0px 0px 5px 3px grey;
+            margin: 5px;
+            text-align:center;
+            padding-top:2%;
+        }
+        .row1{
+            flex-grow: 6;
+            flex-basis: 90%;
+        }
+        .row2{
+            flex-grow: 5;
+            flex-basis: 45%;
+        }
+        .row3{
+            flex-grow: 4;
+            flex-basis: 30%;
+        }
+        .row4{
+            flex-grow: 3;
+            flex-basis: 22.5%;
+        }
+        .row5{
+            flex-grow: 2;
+            flex-basis:15%; 
+        }
+        .row6{
+            flex-grow:1;
+            flex-basis:7%;
+        }
+            
+    </style>
+    <body>
+        <main>
+            <div class="row1">1</div>
+            <div class="row2">2</div>
+            <div class="row2">3</div>
+            <div class="row3">4</div>
+            <div class="row3">5</div>
+            <div class="row3">6</div>
+            <div class="row4">7</div>
+            <div class="row4">8</div>
+            <div class="row4">9</div>
+            <div class="row4">10</div>
+            <div class="row5">11</div>
+            <div class="row5">12</div>
+            <div class="row5">13</div>
+            <div class="row5">14</div>
+            <div class="row5">15</div>
+            <div class="row5">16</div>
+            <div class="row6">17</div>
+            <div class="row6">18</div>
+            <div class="row6">19</div>
+            <div class="row6">20</div>
+            <div class="row6">21</div>
+            <div class="row6">22</div>
+            <div class="row6">23</div>
+            <div class="row6">24</div>
+            <div class="row6">25</div>
+            <div class="row6">26</div>
+            <div class="row6">27</div>
+            <div class="row6">28</div>
+        </main>
+    </body>
+
+
+
+</head>
+
